@@ -1,0 +1,151 @@
+@media (max-width: 1400px) {
+    .mobile {
+        display: none;
+    }
+
+    .navbar span {
+        margin-left: 550px;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 180px;
+        border-radius: 15px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .mobile {
+        display: none;
+    }
+
+    .navbar span {
+        margin-left: 300px;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 180px;
+        border-radius: 15px;
+    }
+
+
+}
+
+@media (max-width: 876px) {
+    .mobile {
+        display: none;
+    }
+
+    .navbar span {
+        margin-left: 130px;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 180px;
+        border-radius: 15px;
+    }
+    .namebox{
+        margin-top: 220px;
+    }
+    .textbox1{
+        margin-top: 450px;
+    }
+}
+
+@media (max-width: 646px){
+    .namebox{
+        margin-top: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile {
+        display: flex;
+        margin-left: 500px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 180px;
+        border-radius: 15px;
+    }
+
+    .namebox {
+        margin-top: 200px;
+    }
+
+    .textbox1 {
+        margin-top: 400px;
+    }
+
+    .footerbox {
+        margin-top: 380px;
+    }
+}
+
+@media (max-width: 645px) {
+    .mobile {
+        display: flex;
+        margin-left: 300px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 180px;
+        border-radius: 15px;
+    }
+
+    .namebox {
+        margin-top: 450px;
+    }
+
+    .textbox1 {
+        margin-top: 700px;
+    }
+
+    .footerbox {
+        margin-top: 380px;
+        height: 1100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .mobile {
+        display: flex;
+        margin-left: 300px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 180px;
+        border-radius: 15px;
+    }
+
+    .namebox {
+        margin-top: 450px;
+    }
+
+    .textbox1 {
+        margin-top: 700px;
+    }
+
+    .footerbox {
+        margin-top: 380px;
+        height: 1100px;
+    }
+}

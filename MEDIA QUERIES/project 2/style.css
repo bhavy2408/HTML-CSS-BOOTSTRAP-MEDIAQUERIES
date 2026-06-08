@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.headbox {
+    height: 130px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    /* border-radius: 0 0 25px 25px; */
+    padding: 20px;
+    background-color: #EACDBD;
+
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    /* border: 1px solid black; */
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+.navbar span:hover{
+    color: palevioletred;
+}
+
+.navbar p:hover{
+    color: palevioletred;
+}
+.navbar span {
+    margin-left: 800px;
+    font-size: 25px;
+
+}
+
+.navbar i {
+    font-size: 25px;
+}
+
+.navbar p {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* <!-- Banner section --> */
+.banner {
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 25px; */
+}
+
+/* <!-- Top Category section --> */
+.categorybox {
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: #EACDBD;
+   
+}
+
+.titlebox {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    /* background-color: #EACDBD; */
+}
+
+.titlebox p {
+    font-size: 35px;
+    color: #4C3932;
+}
+
+.titlebox span {
+    font-size: 25px;
+    color: #977E72;
+}
+
+.boxes {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.box-1 {
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.box-1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* <!-- TOP MILK SHAKES SECTION --> */
+
+.milkbox {
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: #EACDBD;
+}
+
+.namebox {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    /* background-color: #EACDBD; */
+}
+
+.image {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.namebox p {
+    font-size: 35px;
+    color: #4C3932;
+}
+
+.namebox span {
+    font-size: 25px;
+    color: #977E72;
+}
+
+.boxs {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+    gap: 15px; 
+}
+
+
+.box1 {
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.like {
+    height: 30px;
+    width: 90px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 5px;
+    background-color: #E5D6CF;
+    color: #6F6562;
+}
+
+.name button {
+    margin-left: 20px;
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #746460;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* <!-- letest Blogs section --> */
+
+.blogsbox {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #EACDBD;
+}
+
+.textbox1 {
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.textbox1 h1 {
+    color: #301F15;
+    font-weight: bold;
+}
+
+.textbox1 span {
+    color: #8D766C;
+}
+
+.cardboxes1 {
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.cardbox1 {
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #D4B4A7;
+}
+
+.imgbox {
+    height: 125px;
+    width: 195px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.introbox {
+    height: 150px;
+    width: 200px;
+    /* border:1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.introbox h3 {
+    font-size: 20px;
+}
+
+/* footer section */
+.footerbox {
+    height: 500px;
+    width: 100%;
+    /* border:1px solid black; */
+    background-color: #1E1E1E;
+}
+
+.hr {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    /* margin-top: 30px; */
+}
+
+.boxes1 {
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box11 {
+    height: 250px;
+    width: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.box11 p {
+    color: #E1E1E1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box11 h1 {
+    font-size: 30px;
+    color: #E1E1E1;
+    font-weight: bold;
+}
+
+.box11 i {
+    size: 50px;
+}
+
+.bigbox {
+    height: 4000px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.mobile{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#D4B4A7;
+    cursor: pointer;
+}
+
+
+.box11 p:hover{
+    color: palevioletred;
+}
+
