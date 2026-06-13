@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.headbox {
+    height: 90px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 1px 1px black;
+}
+
+.headbox nav {
+    display: flex;
+    gap: 20px;
+    margin-left: 760px;
+    font-size: 20px;
+}
+
+.headbox nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.headbox nav a:hover {
+    color: red;
+
+
+}
+
+
+.headbox ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.headbox button {
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.headbox img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Text Section */
+.textbox {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.template-tag {
+    font-size: 90px;
+}
+
+.textbox p {
+    font-size: 30px;
+    color: gray;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 40px;
+}
+
+.hero-buttons button{
+    height: 70px;
+    width: 170px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-buttons :first-child{
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons :last-child:hover{
+    background-color: red;
+    color: white;
+}
+
+/* Cards Section */
+.cardbox{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+.cardtext{
+    height: 90px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtext h2{
+    font-size: 30px;
+}
+
+.cardtext p{
+    font-size: 20px;
+    color: gray;
+}
+
+.cards{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+/* .cards{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+} */
+
+
