@@ -1,0 +1,12 @@
+.back{
+    height: auto;
+    /* width: auto; */
+   background-image: url(./assets/image1.jpg);
+   /* background-size: cover; */
+   /* background-size: contain;  */
+   /* background-repeat: no-repeat; */
+   background-repeat: repeat-x;
+   /* background-repeat: repeat-y; */
+   /* background-clip: border-box; */
+   background-clip: content-box;
+}

@@ -1,0 +1,10 @@
+.image{
+    height: 400px;
+    width: 500px;
+    background-image: url(./assets/image1.jpg);
+    margin: auto;
+    border: 10px solid blue;
+    padding: 20px ;
+   
+
+}

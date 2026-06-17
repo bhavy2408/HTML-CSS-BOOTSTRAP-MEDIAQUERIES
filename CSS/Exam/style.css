@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+  
+}
+
+
+/* <!-- Header section--> */
+
+.box {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+
+
+.search-box {
+    width: 100%;
+    max-width: 550px;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 15px;
+}
+
+.search {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+
+
+.locobox {
+    height: 45px;
+    width: 140px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    color: black;
+}
+
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    position: absolute;
+    right: 0;
+}
+
+
+/* <!-- information section --> */
+.navbar-section {
+    padding: 15px 0;
+}
+
+.maindiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.alldepartment {
+    background-color: #0AAD0A;
+    color: white;
+
+    height: 42px;
+    width: 190px;
+
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* <!-- Banner section --> */
+.banner {
+    position: relative;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.textb {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text2 {
+    font-size: 18px;
+    color: gray;
+    line-height: 28px;
+}
+
+.shopbtn {
+    width: 140px;
+    height: 45px;
+    background-color: #001E2B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* <!-- Featured Categories section --> */
+
+.category-section {
+    padding: 60px 0;
+}
+
+.heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.card1 {
+    width: 200px;
+    height: 230px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.card1 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.b1box {
+    width: 628px;
+    height: 209px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+}
+
+.card1:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* <!-- banner section 2 --> */
+
+.banner2 {
+    width: 1520px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    gap: 20px;
+
+}
+
+.btextbanner1 {
+    height: 150px;
+    width: 500px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    line-height: 50px;
+}
+
+.btextbanner2 {
+    height: 150px;
+    width: 500px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    line-height: 50px;
+    border: none;
+}
+
+/* cards section */
+.cards2 {
+    width: 1300px;
+    height: 860px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card2-1 {
+    width: 250px;
+    height: 390px;
+    border: 1px solid #001E2B;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 15px;
+    line-height: 28px;
+    /* cursor: pointer; */
+    /* border: none; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+}
+
+.card2-1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0AAD0A;
+}
+
+.addbtn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0AAD0A;
+}
+
+.addbtn {
+    background-color: #0AAD0A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+}
+
+.sale {
+    width: 50px;
+    height: 25px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+/* <!-- daily sell section --> */
+
+.cards3 {
+    width: 1350px;
+    height: 500px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.card1banner {
+    width: 310px;
+    height: 470px;
+    /* border: 1px solid black; */
+    position: relative;
+    border-radius: 10px;
+    border-color: gray;
+
+}
+
+.textbannercard1box {
+    position: absolute;
+    width: 270px;
+    height: 180px;
+    /* border: 1px solid white; */
+    top: 20px;
+    left: 25px;
+    line-height: 43px;
+
+}
+
+.textbannercard1 {
+    position: absolute;
+    color: white;
+}
+
+.shopbtnbanner {
+    width: 100px;
+    height: 45px;
+    background-color: #001E2B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+
+.bcards1 {
+    width: 310px;
+    height: 470px;
+    border: 1px solid black;
+    padding: 15px;
+    gap: 15px;
+    line-height: 28px;
+    /* cursor: pointer; */
+    /* border: none; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 13px;
+}
+
+.time span {
+    cursor: pointer;
+}
+
+.addbtnb {
+    width: 280px;
+    height: 40px;
+    color: white;
+    background-color: #0AAD0A;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.bcards1:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0AAD0A;
+}
+
+.addbtnb.bcards1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0AAD0A;
+}
+
+.timebox {
+    height: 40px;
+    width: 280px;
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+
+.time {
+    display: flex;
+    gap: 20px;
+}
+
+.boxes {
+    height: 50px;
+    width: 60px;
+    border: 1px solid black;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: gray;
+    justify-content: space-evenly;
+}
+
+.star {
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+
+/* <!-- details secton  --> */
+.detailbox {
+    height: 150px;
+    width: 1350px;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.detailbox1 {
+    height: 150px;
+    width: 380px;
+    /* border: 1px solid black; */
+    /* line-height: 28px; */
+    color: gray;
+}
+
+/* footer section */
+.mainbox {
+    Width: 100%;
+    Height: 800px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    background-color: #F0F3F2;
+
+}
+
+.footerbox {
+    width: 1400px;
+    height: 450px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.catgorybox {
+    height: 400px;
+    width: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.catgorybox p {
+    font-size: 16px;
+    color: gray;
+}
+
+.catgorybox p:hover {
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.payment {
+    height: 100px;
+    width: 1400px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.last {
+    height: 50px;
+    width: 1400px;
+    /* border: 1px solid black; */
+    display: flex;
+    color: gray;
+    margin-top: 10px;
+}

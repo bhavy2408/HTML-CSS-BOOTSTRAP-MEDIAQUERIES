@@ -1,0 +1,44 @@
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+     margin: 0%;
+
+}
+.font{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height:-100px;
+    margin: 0%;
+    
+}
+.icon{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.para1{
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 50PX;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.education{
+    text-align: center;
+}
+.border{
+    border: 5px dashed black;
+    background-color: antiquewhite;
+}
+   
+
+    

@@ -1,0 +1,15 @@
+@media (max-width:320px) {
+    .maincard {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (min-width:768px) {
+    .maincard {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width:1200px) {
+    .maincard {
+        grid-template-columns: repeat(3,1fr);
+    }
+}

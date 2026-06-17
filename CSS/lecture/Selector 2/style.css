@@ -1,0 +1,95 @@
+/*  pesuado class selector */
+/* div:not(.box){
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+:where(h1 , h2 ,h3){
+    color: aqua; 
+}
+
+:is(h2, .span){
+    color: red ;
+}
+
+div:has(p){
+    color: brown;
+} */
+
+/* attribute selector */
+
+/* a[href="https://www.facebook.com"]{
+    color: blue;
+} */
+
+/* a[href~="box"]{
+    color: red;
+} */
+
+/* a[href|="box"]{
+    color: blanchedalmond;
+} */
+
+/* a[href^="b"]{
+    color: brown;
+} */
+
+/* a[href$="m"]{
+    color: blueviolet;
+} */
+
+/* a[href*="//"]{
+    color: lightblue;
+} */
+
+/* link selector */
+/* a:link{
+	background-color: black;
+} */
+/* a:active{
+	background-color: pink;
+} */
+/* a:hover{
+	background-color: red;
+} */
+/* a:visited{
+	background-color: pink;
+} */
+
+/* Pesudo Element Selector */
+
+/*
+
+::after
+::before
+::first-letter
+::first-line
+::selection
+::placeholder
+::marker
+
+ */
+ /* div::after{
+   content: "🚑";
+ } */
+ /* div::before{
+    content: "🚑";
+  } */
+
+/* p::first-letter{
+    color: blue;
+} */
+/* p::first-line{
+    color: brown;
+} */
+
+/* p::selection{
+    background: yellow;
+} */
+/* input::placeholder{
+    color: brown;
+}  */
+/* li::marker{
+    color: pink;
+} */

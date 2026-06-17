@@ -1,0 +1,54 @@
+.main{
+    height: 300px;
+    width: 400px;
+    background-color: #50EEB4;
+    position: relative;
+}
+.line1{
+    height: 260px;
+    width: 23px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 33px;
+    top: 20px;
+}
+.line2{
+    height: 260px;
+    width: 23px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 76px;
+    top: 20px;
+}
+.line3{
+    height: 260px;
+    width: 23px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.line4{
+    height: 260px;
+    width: 23px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 165px;
+    top: 20px;
+}
+.line5{
+    height: 260px;
+    width: 23px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 210px;
+    top: 20px;
+}
+.line2{
+    height: 260px;
+    width: 23px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 76px;
+    top: 20px;
+}

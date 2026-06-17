@@ -1,0 +1,36 @@
+.transform{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    transform: translate(400px ,400px);
+    /* transform: translatex(400px); */
+    /* transform: translatey(400px); */
+    /* transform: rotate(90deg); */
+    /* transform: rotatex(90deg); */
+    /* transform: rotatey(90deg);
+    transform: scale(2);
+    transform: scalex(0.5);
+    transform: scaley(.5);
+    transform: skew(45deg);
+    transform: skewx(45deg);
+    transform: skewy(45deg);
+    transition-duration: 3s;
+    transition-property: transform;
+    transition-timing-function: linear; */
+    /* transition-delay: 2s; */
+}
+.parent{
+    border: 1px solid black;
+}
+.parent:hover .transform{
+    transform: translateX(1400px);
+	transition-duration:2s;
+	transition-property: transform;
+	transition-timing-function:linear;
+	/* transition-timing-function: ease;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;
+	transition-timing-function: ease-in-out; */
+	transition-timing-function: steps(2);
+}
+

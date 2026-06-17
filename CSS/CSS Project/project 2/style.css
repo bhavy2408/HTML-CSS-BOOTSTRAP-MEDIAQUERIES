@@ -1,0 +1,334 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+/* header section */
+.box {
+    height: 900px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 1200px black;
+    box-shadow: 0 0 40px white;
+    flex-wrap: wrap;
+}
+
+.headerbox {
+    Width: 1905px;
+    Height: 120px;
+    /* border: 1px solid black; */
+}
+
+.searchbox {
+    Width: 1200px;
+    Height: 88px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+
+.searchbox img {
+    height: 100px;
+    width: 220px;
+}
+
+.langselect {
+    margin-left: 750px;
+    width: 124px;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-color: black;
+}
+
+.btnsignin {
+    width: 77px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.emailbox {
+    height: 778px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.text {
+    height: 400px;
+    width: 800px;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    height: 56px;
+    width: 442.75px;
+    font-size: 15px;
+    background-color: black;
+    border-color: #5E5E5E;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn {
+    height: 50px;
+    width: 213.25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+/* <!-- trending now section --> */
+.trendingnowbox {
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+
+}
+
+.trending {
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid white; */
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.trendingbox {
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.trendingitem {
+    height: 350px;
+    width: 250px;
+    /* border: 1px solid white; */
+    position: relative;
+    cursor: pointer;
+}
+
+.trendingitem img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.trendingitem img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 10px gray;
+}
+
+.trendingitem i {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 295px;
+    left: -40px;
+
+}
+
+/* < !-- More reasons to join --> */
+
+.reasonsbox {
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.reasons {
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid white; */
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.boxreasing {
+    height: 320px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.reasonitem {
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: #1d172d;
+    padding: 20px;
+}
+
+.reasonitem img {
+    height: 80px;
+    width: 80px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+/* <!-- Frequently Asked Questions --> */
+
+.boxquestion {
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid white; */
+    padding: 20px;
+}
+
+.headquestion {
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.questionbox {
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+}
+
+.questionbtn {
+    height: 80px;
+    width: 100%;
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.questionbtn:hover {
+    background-color: #414141;
+}
+
+.questionbtn p {
+    color: white;
+    font-size: 25px;
+}
+
+.questionbtn i {
+    font-size: 40px;
+}
+
+/* <!-- footer section --> */
+.footerbox {
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.footersign {
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerdetails {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 80px;
+}
+
+.foooteritems {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.foooteritemsbox {
+    height: 20px;
+    width: 180px;
+    /* border: 1px solid white; */
+
+}
+
+.foooteritemsbox ol {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foooteritemsbox li {
+    margin-top: 20px;
+    color: gray;
+}
+
+.lang {
+    height: 40px;
+    width: 150px;
+    background-color: #0F0F0F;
+    color: white;
+    border-radius: 8px;
+}

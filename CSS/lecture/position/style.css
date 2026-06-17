@@ -1,0 +1,83 @@
+/* <!-- 5.static --> */
+/* .div{
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    position: static;
+} */
+
+/* 4.fixed */
+
+/* .div{
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+} */
+
+/* 3.sticky */
+
+/* .div1{
+    background-color: blue;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    position: sticky;
+} */
+
+/* 1.relative
+2.absoulate */
+
+.mainbox{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+div{
+    	height: 100px;
+	width: 100px;
+	border:1px solid black;
+	font-size: 25px;
+	color:white;
+
+}
+
+.box-1{
+    right: 0;
+    background-color: red;
+}
+
+.box-2{
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: red;
+}
+.box-3{
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: red;
+}
+
+.box-4{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    background-color: red;
+}
+
+
+div[class*="box-"]{
+    position: absolute;
+}
+
+
