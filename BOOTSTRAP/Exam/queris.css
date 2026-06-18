@@ -1,0 +1,113 @@
+/* Tablet */
+@media (max-width: 992px) {
+
+    .mainbox {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .infobox {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .textinfo,
+    .imgbox {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imgbox {
+        justify-content: center !important;
+        margin-top: 30px;
+    }
+
+    .desgine {
+        width: 450px;
+        height: 400px;
+    }
+
+    .desginea1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .h1f {
+        font-size: 40px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .container {
+        margin: 10px;
+    }
+
+    .head {
+        font-size: 28px;
+    }
+
+    .h1f {
+        font-size: 32px;
+    }
+
+    .p1 {
+        font-size: 20px;
+    }
+
+    .textinfo {
+        padding: 20px !important;
+    }
+
+    .desgine {
+        width: 320px;
+        height: 320px;
+        border-width: 8px;
+    }
+
+    .desginea1 {
+        width: 220px;
+        height: 220px;
+        border-width: 8px;
+    }
+
+    .btn {
+        margin: auto;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .h1f {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .p2 {
+        font-size: 14px;
+    }
+
+    .desgine {
+        width: 260px;
+        height: 260px;
+    }
+
+    .desginea1 {
+        width: 180px;
+        height: 180px;
+    }
+}

@@ -1,0 +1,94 @@
+.container{
+    margin:20px ;
+}
+.navbar-nav a{
+    color: black;
+}
+.navbar-nav a:hover{
+    color:gray;
+}
+
+.mainbox{
+    height: 750px;
+    width: 1400px;
+    border:1px solid black;
+    margin: 20px;   
+    background: linear-gradient(to right, yellow, gray, red);
+}
+
+.box{
+    height: 680px;
+    width:100%;
+    background-color: white;
+}
+
+.infobox{
+    height: 600px;
+    width: 100%;
+    /* border:1px solid black; */
+}
+
+.navbar{
+    background-color: white;
+}
+
+
+.head{
+    font-size:35px;
+}
+
+.head1 a{
+    font-size:20px;
+}
+
+.textinfo{
+    height: 600px;
+    width: 60%;
+    /* border:1px solid black; */
+    flex-direction: column;
+}
+
+.hr{
+    width:100px;
+    color:darkred;
+}
+
+.btn{
+    height: 40px;
+    width: 130px;
+}
+
+.p2{
+    color:gray ;
+}
+
+.imgbox{
+    height: 600px;
+    width: 50%;
+    /* border:1px solid black; */
+}
+
+.p1{
+    font-size: 25px;
+}
+
+.h1f{
+    font-size: 50px;
+}
+
+.desgine{
+    height: 500px;
+    width: 600px;
+    border: 12px solid red;
+}
+.desginea1{
+    height: 400px;
+    width: 380px;
+    border: 12px solid black;
+    border-radius: 923px 693px 0px 877px;
+}
+.desginea1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 923px 693px 0px 877px;
+}
