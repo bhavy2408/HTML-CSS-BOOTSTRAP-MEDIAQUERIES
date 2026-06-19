@@ -1,5 +1,7 @@
 .container{
-    margin:20px ;
+    max-width: 1400px;
+    width: 100%;
+    margin: 20px auto;
 }
 .navbar-nav a{
     color: black;
@@ -14,6 +16,8 @@
     border:1px solid black;
     margin: 20px;   
     background: linear-gradient(to right, yellow, gray, red);
+    max-width: 1400px;
+    margin: auto;
 }
 
 .box{

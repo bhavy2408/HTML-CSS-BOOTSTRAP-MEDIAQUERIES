@@ -1,0 +1,226 @@
+/* Laptop */
+@media (max-width: 1200px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .headbox nav {
+        margin-left: 250px;
+    }
+
+    .template-tag {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .textbox p {
+        text-align: center;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .cardbox {
+        height: auto;
+    }
+
+    .socailmainbox {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .socialbox,
+    .socailtext {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    .headbox {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .headbox nav {
+        margin-left: 0;
+    }
+
+    .headbox ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .template-tag {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .textbox p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .cardbox {
+        height: auto;
+    }
+
+    .Mainpagebox {
+        height: auto;
+    }
+
+    .mainpagescards {
+        height: auto;
+    }
+
+    .socailmainbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socailtext {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footermainbox {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .template-tag {
+        font-size: 30px;
+    }
+
+    .textbox {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .textbox p {
+        font-size: 18px;
+    }
+
+    .hero-buttons button {
+        width: 140px;
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .cardtext h2,
+    .mainpagestext h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cardtext p,
+    .mainpagestext p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .mainpagescard {
+        width: 90%;
+        height: auto;
+    }
+
+    .mainpagescard h1 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .socailtext1 {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .socailtext1 h1 {
+        font-size: 28px;
+    }
+
+    .footerbox1,
+    .footerbox2,
+    .footerbox3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .socailicon {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imgmainfooterbox {
+        justify-content: center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+
+    .headbox {
+        border-radius: 20px;
+    }
+
+    .headbox ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .template-tag {
+        font-size: 24px;
+    }
+
+    .textbox p {
+        font-size: 16px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .mainpagescard {
+        width: 100%;
+    }
+
+    .buybtn button,
+    .socailtext1 button,
+    .headbox button {
+        width: 140px;
+        height: 50px;
+    }
+
+    .imgfooterbox {
+        width: 80px;
+        height: 80px;
+    }
+}
