@@ -1,115 +1,139 @@
+/* Large Laptop */
+@media screen and (max-width: 1200px){
+
+    .mainbox{
+        width: 100%;
+        height: auto;
+    }
+
+    .textinfo{
+        width: 55%;
+    }
+
+    .imgbox{
+        width: 45%;
+    }
+
+    .desgine{
+        width: 450px;
+        height: 400px;
+    }
+
+    .desginea1{
+        width: 320px;
+        height: 330px;
+    }
+
+    .nr{
+        margin-left: 20px;
+    }
+}
+
 /* Tablet */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px){
 
-    .mainbox {
-        width: 100%;
+    .mainbox{
         height: auto;
-        margin: 0;
     }
 
-    .infobox {
+    .infobox{
         flex-direction: column;
-        height: auto;
-    }
-
-    .textinfo,
-    .imgbox {
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-
-    .textinfo {
         align-items: center;
     }
 
-    .desgine {
+    .textinfo,
+    .imgbox{
+        width: 100%;
+        height: auto;
+    }
+
+    .textinfo{
+        align-items: center;
+        text-align: center;
+        padding: 30px !important;
+    }
+
+    .imgbox{
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+
+    .desgine{
         width: 450px;
-        height: 400px;
-        margin: 20px auto;
+        height: 380px;
     }
 
-    .desginea1 {
-        width: 300px;
+    .desginea1{
+        width: 290px;
         height: 300px;
-    }
-
-    .h1f {
-        font-size: 40px;
     }
 }
 
 /* Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
 
-    .head {
+    .head{
         font-size: 28px;
     }
 
-    .p1 {
+    .h1f{
+        font-size: 38px;
+    }
+
+    .p1{
         font-size: 20px;
     }
 
-    .h1f {
-        font-size: 32px;
-    }
-
-    .textinfo {
-        padding: 20px !important;
-    }
-
-    .desgine {
-        width: 320px;
+    .desgine{
+        width: 330px;
         height: 300px;
         border-width: 8px;
     }
 
-    .desginea1 {
+    .desginea1{
         width: 220px;
         height: 220px;
         border-width: 8px;
     }
 
-    .btn {
-        margin: auto;
-    }
-
-    .p2 {
-        font-size: 14px;
+    .p2{
+        font-size: 15px;
     }
 }
 
 /* Small Mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 
-    .mainbox {
-        border: none;
-    }
-
-    .head {
+    .head{
         font-size: 24px;
     }
 
-    .h1f {
-        font-size: 26px;
+    .h1f{
+        font-size: 28px;
     }
 
-    .desgine {
-        width: 250px;
-        height: 250px;
+    .p1{
+        font-size: 18px;
     }
 
-    .desginea1 {
+    .desgine{
+        width: 260px;
+        height: 240px;
+        border-width: 6px;
+    }
+
+    .desginea1{
         width: 170px;
         height: 170px;
+        border-width: 6px;
     }
 
-    .navbar-nav {
+    .btn{
+        width: 120px;
+        height: 38px;
+    }
+
+    .navbar-nav{
         text-align: center;
-    }
-
-    .textinfo,
-    .imgbox {
-        padding: 10px;
     }
 }

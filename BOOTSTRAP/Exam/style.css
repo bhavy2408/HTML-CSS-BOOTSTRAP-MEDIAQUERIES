@@ -11,7 +11,8 @@
 }
 
 .mainbox{
-    height: 750px;
+    min-height: 750px;
+    height: auto;
     width: 1400px;
     border:1px solid black;
     margin: 20px;   
@@ -21,15 +22,19 @@
 }
 
 .box{
-    height: 680px;
+    height: auto;
     width:100%;
     background-color: white;
 }
 
 .infobox{
-    height: 600px;
-    width: 100%;
+     
+    min-height: 600px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
     /* border:1px solid black; */
+    
 }
 
 .navbar{
@@ -47,9 +52,11 @@
 
 .textinfo{
     height: 600px;
-    width: 60%;
+    width: 50%;
     /* border:1px solid black; */
+    display: flex;
     flex-direction: column;
+
 }
 
 .hr{
@@ -67,8 +74,10 @@
 }
 
 .imgbox{
-    height: 600px;
-    width: 50%;
+   width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* border:1px solid black; */
 }
 
@@ -95,4 +104,10 @@
     height: 100%;
     width: 100%;
     border-radius: 923px 693px 0px 877px;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.nr{
+     /* margin-left: 400px; */
 }
